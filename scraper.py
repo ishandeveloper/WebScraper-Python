@@ -1,5 +1,4 @@
 import requests
-import sys
 import bs4
 
 print("WEB SCRAPPER")
