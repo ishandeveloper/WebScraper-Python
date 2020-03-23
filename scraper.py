@@ -21,7 +21,6 @@ try:
     chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
     txtcontent = '\n'.join(chunk for chunk in chunks if chunk)
 
-
     fname=str(name)+".txt"
     freader = open(fname, "w",encoding="utf-8")
     freader.write("*****Document Generated Using Web Scraper By Ishan Sharma(github.com/ishandeveloper)*****\n\n")
