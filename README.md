@@ -12,6 +12,6 @@ You can install them using the following commands.
 <pre>pip install bs4</pre>
 <pre>pip install requests</pre>
 
-<br><br>
+<br>
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ishandeveloper)
 ##### by <a href="https://github.com/ishandeveloper">ishandeveloper</a>
