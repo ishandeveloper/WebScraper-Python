@@ -4,8 +4,6 @@ import bs4
 print("WEB SCRAPPER")
 url = input("Enter or Paste the URL: ")
 name = input("Save File As ? : ")
-
-
 url.strip()
 
 try:
