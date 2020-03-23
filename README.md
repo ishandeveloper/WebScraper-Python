@@ -1,5 +1,5 @@
 ## WebScraper-Python
-A simple python script to help you extract all the text information from a webpage and save it to a text file on your local computer.
+A simple python script to help you extract all the text information from any webpage and save it to a text file on your local computer.
 
 ### Example
 Using this wikipedia page url <a href="https://en.wikipedia.org/wiki/Naruto">(Naruto Wiki)</a> will generate the above <a href="naruto.txt">naruto.txt</a> file.
