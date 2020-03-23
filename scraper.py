@@ -13,7 +13,6 @@ try:
     res=requests.get(url)
     souped=bs4.BeautifulSoup(res.text,'lxml')
         
-        # Removing all javascript, css and images
     for a in souped(["script", "style","link","img","nav","footer","title","meta",""]):
         a.decompose()   
 
