@@ -13,7 +13,7 @@ try:
     res=requests.get(url)
     souped=bs4.BeautifulSoup(res.text,'lxml')
         
-    for a in souped(["script", "style","link","img","nav","footer","title","meta",""]):
+    for a in souped(["script", "style","link","img","nav","footer","title","meta"]):
         a.decompose()   
 
     text = souped.get_text()
